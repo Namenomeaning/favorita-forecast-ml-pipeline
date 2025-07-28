@@ -73,6 +73,7 @@ Processed data will be saved to `data/featured/`.
 Open and run:
 ```bash
 jupyter notebook notebooks/machine_learning.ipynb
+```
 
 ## 🔧 Features
 
@@ -102,7 +103,7 @@ jupyter notebook notebooks/machine_learning.ipynb
 - Baseline comparison (ARIMA/Prophet) implemented
 - Latest MASE score: **0.9** (target achieved)
 
-### ⚙️ 2. Technical Implementation
+### ⚙️ Technical Implementation
 Applied deep **feature engineering** with key components:
 - **Historical sales patterns**
 - **Oil price indicators** 
@@ -110,11 +111,11 @@ Applied deep **feature engineering** with key components:
 - **Holiday flags** for special events
 - **Advanced visualization** to understand interaction patterns
 
-### ⚠️ 3. Current Issues
-**Zero-sales items**: Affect prediction errors and MASE scores
-**Large data files**: Managed via `.gitignore` and local storage
+### ⚠️ Current Issues
+- **Zero-sales items**: Affect prediction errors and MASE scores
+- **Large data files**: Managed via `.gitignore` and local storage
 
-### 🔄 4. Next Steps
+### 🔄 Next Steps
 Immediate focus:
 - Zero-sales analysis
 - Model optimization (target MASE < 0.8)
@@ -131,10 +132,10 @@ Immediate focus:
 - Prediction pipeline
 
 ### 🚧 Next Phase
-1. Model optimization (hyperparameters, selection, zero-sales, ensemble)
-2. MLOps pipeline (monthly ingestion, drift detection, retraining, versioning, A/B testing)
-3. Deployment & monitoring (API, real-time, dashboards, alerts, CI/CD)
-4. Advanced features (multi-horizon, hierarchical, external data, causal inference)
+1. **Model optimization** (hyperparameters, selection, zero-sales, ensemble)
+2. **MLOps pipeline** (monthly ingestion, drift detection, retraining, versioning, A/B testing)
+3. **Deployment & monitoring** (API, real-time, dashboards, alerts, CI/CD)
+4. **Advanced features** (multi-horizon, hierarchical, external data, causal inference)
 
 ### 📋 Immediate Next Steps
 1. Zero-sales analysis
@@ -148,9 +149,9 @@ Immediate focus:
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your branch
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## 📄 License
