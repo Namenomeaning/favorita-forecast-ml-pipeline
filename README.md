@@ -12,24 +12,25 @@ Forecasts daily sales for thousands of product families at 54 Favorita stores. U
 ## 🏗️ Project Structure
 
 ```
-data/
-  csv/         # Raw CSV files
-  featured/    # Processed data for training
-models/        # Saved models
-notebooks/     # Jupyter notebooks
-src/
-  process.py   # Main pipeline
-  data/        # Data modules
-    load_data.py
-    preprocess_data.py
-    clean_data.py
-    feature_engineering.py
-    merge_data.py
-    save_data.py
-README.md
-pyproject.toml
-requirements.txt
-uv.lock
+favorita-forecast/
+├── data/
+│   ├── csv/                # Raw CSV files
+│   └── featured/           # Processed data for training
+├── models/                 # Saved models
+├── notebooks/              # Jupyter notebooks
+├── src/
+│   ├── process.py          # Main pipeline
+│   └── data/               # Data modules
+│       ├── load_data.py
+│       ├── preprocess_data.py
+│       ├── clean_data.py
+│       ├── feature_engineering.py
+│       ├── merge_data.py
+│       └── save_data.py
+├── README.md
+├── pyproject.toml
+├── requirements.txt
+└── uv.lock
 ```
 
 ## 🚀 Quick Start
