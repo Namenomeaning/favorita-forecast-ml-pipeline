@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+.env
+models/*
+!models/.gitkeep
+.ipynb_checkpoints
+.DS_Store
+process.py
+claude.md 
+uv.lock
+data/*
